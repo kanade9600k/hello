@@ -10,7 +10,7 @@ public class NumberGuessingGame {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("数当てゲームを開始します！");
-        System.out.println("2桁の正の整数を予想して入力してください（1回あたりの入力回数制限: 5回）");
+        System.out.println("2桁の正の整数を予想して入力してください（1回あたりの入力回数制限: " + maxGuesses +"回）");
 
         while (guessesTaken < maxGuesses) {
             System.out.print("予想した数を入力してください: ");
